@@ -16,7 +16,7 @@ public class SpringDocumentationConfig {
      * @return an instance with configured API information
      */
     @Bean
-    public OpenAPI customOpenAPI() {
+    public OpenAPI defaultOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
                         .title("File Download and Upload API")
